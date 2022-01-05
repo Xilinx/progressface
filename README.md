@@ -55,3 +55,15 @@ python test_widerface.py --network net3 --gpu 0 --prefix ./model/progressface_li
 cd evaluation/WiderFace-Evaluation
 python evaluation.py -p ../../wout -g ./
 ```
+
+## Citation
+
+If you find the code and pre-trained model useful in your research, please cite our paper:
+```
+@inproceedings{zhu2020progressface,
+  title={Progressface: Scale-aware progressive learning for face detection},
+  author={Zhu, Jiashu and Li, Dong and Han, Tiantian and Tian, Lu and Shan, Yi},
+  booktitle={European Conference on Computer Vision},
+  year={2020}
+}
+```
