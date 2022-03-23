@@ -173,8 +173,8 @@ config.HEAD_FILTER_NUM = 256
 config.CONTEXT_FILTER_RATIO = 1
 config.max_feat_channel = 9999
 
-config.USE_CROP = False
-config.USE_DCN = 0
+config.USE_CROP = True
+config.USE_DCN = 2
 config.FACE_LANDMARK = True
 config.USE_OCCLUSION = False
 config.USE_BLUR = False
@@ -308,7 +308,7 @@ network.mnet.pretrained = 'model/mobilenet_0_25' #78
 network.mnet.pretrained_epoch = 0
 network.mnet.max_feat_channel = 8888
 network.mnet.COLOR_MODE = 1
-network.mnet.USE_CROP = False
+network.mnet.USE_CROP = True
 network.mnet.RPN_ANCHOR_CFG = RAC_SSH
 if config.STR == True:
     network.mnet.RPN_ANCHOR_CFG = RAC_RETINA
